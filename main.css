@@ -61,6 +61,10 @@ img {
 	height: auto;
 }
 
+.list {
+	padding-left: 25px;
+}
+
 .header_menu {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -174,16 +178,13 @@ img {
 	font-size: 76px;
 	line-height: 81.78px;
 	white-space: nowrap;
+	margin-bottom: -100px;
 }
 
 .section-title {
 	font-family: Vetrino, sans-serif;
 	font-size: 32px;
 	line-height: 34px;
-}
-
-.main .section-title {
-	padding-top: 20px;
 }
 
 .main_text {
@@ -366,7 +367,7 @@ img {
 }
 
 .help .section-title {
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 }
 
 .help_photo-wrapper {
@@ -376,6 +377,10 @@ img {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
+}
+
+.list_help {
+	margin-bottom: 30px;
 }
 
 .list-item {
@@ -485,7 +490,7 @@ img {
 }
 
 .accordion-wrapper {
-	margin: 60px 0 0 -50px;
+	margin-left: -50px;
 }
 
 .accordion-body {
