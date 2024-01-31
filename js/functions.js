@@ -28,6 +28,8 @@ $(document).ready(function(){
 				breakpoint: 576,
 				settings: {
 					slidesToShow: 1,
+					arrows: false,
+					centerPadding: '50px',
 				}
 			},  
 		],
@@ -49,6 +51,8 @@ $(document).ready(function(){
 				settings: {
 					slidesToShow: 1,
 					centerPadding: 0,
+					arrows: false,
+					centerPadding: '0px',
 				}
 			},  
 		],
@@ -66,6 +70,8 @@ $(document).ready(function(){
 				breakpoint: 556,
 				settings: {
 					slidesToShow: 1,
+					arrows: false,
+					centerPadding: '0px',
 				}
 			},  
 		],

@@ -9,7 +9,7 @@
 	line-height: 32px;
   }
 
-  .head_text {
+  .main_text {
 	font-size: 18px;
 	line-height: 27px;
 	padding: 30px 10px 85px 0;
@@ -25,24 +25,24 @@
 	font-size: 22px;
   }
 
-  .head_exp-wrapper {
+  .main_exp-wrapper {
 	-webkit-column-gap: 80px;
 	-moz-column-gap: 80px;
 	column-gap: 80px;
   }
 
-  .head_exp span:first-child {
+  .main_exp span:first-child {
 	font-weight: 600;
 	font-size: 30px;
 	line-height: 32px;
   }
 
-  .head_exp span:last-child {
+  .main_exp span:last-child {
 	font-size: 19px;
 	line-height: 24px;
   }
 
-  .head {
+  .main {
 	padding: 75px 0 50px;
   }
 
@@ -146,7 +146,7 @@
 	line-height: 32px;
   }
 
-  .head_exp-wrapper {
+  .main_exp-wrapper {
 	-webkit-column-gap: 60px;
 	-moz-column-gap: 60px;
 	column-gap: 60px;
@@ -207,33 +207,33 @@
 	line-height: 34px;
   }
 
-  .head_text {
+  .main_text {
 	font-size: 16px;
 	line-height: 18px;
 	padding: 10px 10px 75px 0;
   }
 
-  .head .subtitle {
+  .main .subtitle {
 	padding-top: 10px;
   }
 
-  .head_text br {
+  .main_text br {
 	display: none;
   }
 
-  .head_exp-wrapper {
+  .main_exp-wrapper {
 	-webkit-column-gap: 35px;
 	-moz-column-gap: 35px;
 	column-gap: 35px;
   }
 
-  .head_exp span:first-child {
+  .main_exp span:first-child {
 	font-weight: 500;
 	font-size: 26px;
 	line-height: 28px;
   }
 
-  .head_exp span:last-child {
+  .main_exp span:last-child {
 	font-size: 16px;
 	line-height: 20px;
   }
@@ -326,7 +326,7 @@
 }
 
 @media (max-width: 768px) {
-  .head_exp {
+  .main_exp {
 	-ms-flex-preferred-size: 33%;
 	flex-basis: 33%;
   }
@@ -346,13 +346,13 @@
 	padding-top: 5px;
   }
 
-  .head_exp-wrapper {
+  .main_exp-wrapper {
 	-webkit-column-gap: 10px;
 	-moz-column-gap: 10px;
 	column-gap: 10px;
   }
 
-  .head_exp span:last-child {
+  .main_exp span:last-child {
 	font-size: 14px;
 	line-height: 18px;
   }
@@ -392,7 +392,7 @@
 	white-space: nowrap;
   }
   
-  .head_text br {
+  .main_text br {
 	display: none;
   }
    header .button-light {
@@ -415,7 +415,7 @@
   }
 
 
-  .head .row {
+  .main .row {
 	row-gap: 30px;
   }
 
@@ -428,24 +428,24 @@
 	padding: 30px 0;
   }
 
-  .head {
+  .main {
 	padding: 50px 0 30px;
   }
 
-  .head_text {
+  .main_text {
 	line-height: 22px;
   }
 
-  .head_text {
+  .main_text {
 	padding: 20px 10px 40px 0;
 	line-height: 24px;
   }
 
-  .head_text br {
+  .main_text br {
 	display: none;
   }
 
-  .head_exp-wrapper {
+  .main_exp-wrapper {
 	-webkit-column-gap: 25px;
 	-moz-column-gap: 25px;
 	column-gap: 25px;
@@ -507,7 +507,7 @@
 
   .review,
   .gift,
-  .head_exp,
+  .main_exp,
   .resp-center {
 	text-align: center;
   }
@@ -567,7 +567,7 @@
   border-radius: 100px;
   margin-right: 0;
   }
-  .head_exp-wrapper { 
+  .main_exp-wrapper { 
 	margin-top: 25px;
   }
 }
