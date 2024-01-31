@@ -42,7 +42,7 @@
                             <img src="src/images/logo.svg" alt="">
                         </a>
                     </div>
-                    <div class="col-xxl-10 col-lg-9 col-md-10 col-auto ms-auto g-0 d-flex d-md-block">
+                    <div class="col-sm-10 col-8">
                         <div class="header-top">
                             <ul class="header_menu">
                                 <li class="header_menu-item">
@@ -61,47 +61,42 @@
                                     <a href="#review">Отзывы</a>
                                 </li>
                             </ul>
-                            <a class="button-light start-test d-none d-md-none" href="https://ya.ru/" target="_blank">
-                                    Пройти тест
-                                </a>
-                            <a href="tel:+7 904 910-96-19" target="_blank">
-                                <span class="phone">
-                                +7 904 910-96-19
-                                </span>
-                            </a>
+                            <div class="header_phone-wrapper">
+                               <a class="phone" href="tel:+79049109619" target="_blank">
+                                 +7 904 910-96-19
+                                </a> 
+                            </div>
                             <div class="burger-button">
                                 <img src="src/icon/burger.svg" alt="">
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row flex-nowrap d-none d-md-flex">
-                    <div class="col-auto offset-4">
-                        <a class="button-light start-test" href="https://ya.ru/" target="_blank">
-                            Пройти тест
-                        </a>
-                    </div>
-                    <div class="col-2 ms-xxl-auto offset-lg-2 ms-sm-auto">
-                        <div class="worktime ">
-                            Режим работы
-                            <br> 08:00–17:00
+                        <hr>
+                        <div class="header-bottom">
+                            <div class="start-test">
+                                <a class="button-light " href="https://ya.ru/" target="_blank">
+                                    Пройти тест
+                                </a>
+                            </div>
+                            <span class="worktime">
+                                Режим работы
+                                <br> 08:00–17:00
+                            </span>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
         </header>
         <main>
             <section class="head">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6 resp-center">
+                        <div class="col-sm-6">
                             <h1 class="title">
                                 Новый заголовок<br>и ещё текст 
                             </h1>
-                            <h3 class="subtitle">
+                            <h1 class="section-title">
                                 Зыряева Светлана Геннадьевна
-                            </h3>
+                            </h1>
                             <div class="head_text">
                                 Мой проект создан для помощи подросткам
                                 <br> и взрослым, в личностном
@@ -121,12 +116,14 @@
                             </span>
                         </div>
                         <div class="col-sm-6">
-                            <img src="src/images/main_photo.png" alt="">
+                            <div class="main__photo-wrapper">
+                                <img class="main__photo" src="src/images/main__photo.png" alt="">
+                            </div>
                             <div class="head_exp-wrapper">
                                 <div class="head_exp">
                                     <span>500</span>
                                     <br>
-                                    <span>часов практики</span>
+                                    <span>часов практики</span> 
                                 </div>
                                 <div class="head_exp">
                                     <span>500</span>
@@ -145,7 +142,7 @@
             </section>
             <section class="orientation">
                 <div class="container">
-                    <h3 class="subtitle">Направления деятельности</h3>
+                    <h1 class="section-title">Направления деятельности</h1>
                     <div class="orientation_slider">
                         <div class="orientation_slider_card">
                             <img src="src/images/04.png" alt="">
@@ -226,7 +223,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-6">
-                            <h3 class="subtitle">Кому я могу помочь</h3>
+                            <h1 class="section-title">Кому я могу помочь</h1>
                             <div class="help_photo-wrapper">
                                 <img src="src/images/photo.png" alt="">
                             </div>
@@ -290,7 +287,7 @@
             </section>
             <section class="format">
                 <div class="container">
-                    <h3 class="subtitle">Формат проведения </h3>
+                    <h1 class="section-title">Формат проведения </h1>
                     <div class="row mt-3 mt-sm-3">
                         <div class="col-sm-6">
                             <img src="src/images/format.png" alt="">
@@ -334,7 +331,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6 text-center text-sm-start">
-                            <h3 class="subtitle">Подарочные сертификаты</h3>
+                            <h1 class="section-title">Подарочные сертификаты</h1>
                             <ul class="gift_list list">
                                 <li class="list-item">
                                     Индивидуальная консультация
@@ -363,7 +360,7 @@
             </section>
             <section class="review">
                 <div class="container">
-                    <h3 class="subtitle">Отзывы</h3>
+                  <h1 class="section-title">Отзывы</h1>
                     <div class="review_slider">
                         <div class="review_slider_card">
                             <img src="src/images/review/2.png" alt="">
@@ -421,25 +418,25 @@
                     </div>
                 </div>
             </div>
-            <div class="modal modal-xl fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        </footer>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
-                        <h3 class="subtitle">Записаться на прием</h3>
+                       <h1 class="section-title">Записаться на прием</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        <select class="form-select shadow-none mt-5" aria-label="consultation_type">
-                            <option class="form-select shadow-none" disabled selected>Вид консультации</option>
+                        <select class="form-select mt-5" aria-label="consultation_type">
+                            <option class="form-select" disabled selected>Вид консультации</option>
                             <option value="1">Онлайн консультация</option>
                             <option value="2">Личная встреча</option>
                             <option value="3">Групповой тренинг</option>
                         </select>
-                        <input type="email" class="mt-3 form-control" id="exampleFormControlInput1" placeholder="Дата">
-                        <input type="email" class="mt-3 form-control" id="exampleFormControlInput1" placeholder="Имя">
-                        <input type="email" class="mt-3 form-control" id="exampleFormControlInput1" placeholder="Телефон для связи">
+                        <input type="text" class="mt-3 form-control" id="exampleFormControlInput1" placeholder="Дата">
+                        <input type="text" class="mt-3 form-control" id="exampleFormControlInput1" placeholder="Имя">
+                        <input type="text" class="mt-3 form-control" id="exampleFormControlInput1" placeholder="Телефон для связи">
                         <span class="button-dark mt-5">Записаться</button>
                     </div>
                 </div>
-            </div>
-        </footer>
+        </div>
         <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
         <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
