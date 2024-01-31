@@ -378,10 +378,6 @@ img {
 	justify-content: center;
 }
 
-.help_list {
-	margin-top: 178px;
-}
-
 .list-item {
 	font-size: 24px;
 	line-height: 31px;
@@ -438,6 +434,10 @@ img {
 
 .format {
 	padding: 150px 0;
+}
+
+.format .section-title {
+	margin-bottom: 55px;
 }
 
 .format img {
@@ -752,3 +752,4 @@ header .button-light {
 	left: 0;
 	top: 12px;
 }
+
