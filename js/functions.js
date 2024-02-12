@@ -90,7 +90,7 @@ $(document).ready(function(){
 
 	function scrollTo(dest) {
 		$('.burger-menu-wrapper').hasClass('burger-display') ? $('.burger-menu-wrapper').toggleClass('burger-display') : null;
-	 	$('html, body').animate({
+		$('html, body').animate({
 			scrollTop: dest.offset().top
 		}, 1000);
 	}
