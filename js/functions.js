@@ -4,7 +4,6 @@ $(document).ready(function(){
 	$('.orientation__slider__card__content-wrapper').matchHeight({
 		byRow: true,
 	});
-
 	$('.orientation__slider').slick({
 		slidesToShow: 4,
 		dots: true,
@@ -14,13 +13,13 @@ $(document).ready(function(){
 		nextArrow: '<div class="slider_arrow slider_arrowright"></div>',
 		responsive: [
 			{
-				breakpoint: 993,
+				breakpoint: 1200,
 				settings: {
 					slidesToShow: 3,
 				}
 			},  
 			{
-				breakpoint: 768,
+				breakpoint: 992,
 				settings: {
 					slidesToShow: 2,
 				}
@@ -38,7 +37,6 @@ $(document).ready(function(){
 
 	$('.qual__slider').slick({
 		centerMode: true,
-		centerPadding: '40px',
 		slidesToShow: 3,
 		centerPadding: '70px',
 		dots: true,
@@ -48,12 +46,28 @@ $(document).ready(function(){
 		nextArrow: '<div class="slider_arrow slider_arrowright"></div>',
 		responsive: [
 			{
+				breakpoint: 1200,
+				settings: {
+	                centerMode: true,
+					centerPadding: '260px',
+	                slidesToShow: 1
+              }
+			},  
+			{
+				breakpoint: 768,
+				settings: {
+	                centerMode: true,
+					centerPadding: '100px',
+	                slidesToShow: 1,
+	                arrows: false,
+              }
+			},  
+
+			{
 				breakpoint: 556,
 				settings: {
 					slidesToShow: 1,
-					centerPadding: 0,
 					arrows: false,
-					centerPadding: '0px',
 				}
 			},  
 		],
