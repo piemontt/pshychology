@@ -700,9 +700,9 @@ footer img:hover {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
 	position: fixed;
 	top: 0px;
 	right: -100vw;
@@ -717,6 +717,12 @@ footer img:hover {
 	z-index: 99;
 }
 
+.burger-menu-wrapper .button {
+	font-size: 20px;
+	padding:0 30px;
+	line-height: 34px;
+}
+
 .burger-display {
 	right: 0px;
 	display: -webkit-box;
@@ -725,22 +731,25 @@ footer img:hover {
 }
 
 .burger-menu-wrapper button {
-	margin-right: 30px;
+	display: block;
+	position: absolute;
+	right: 20px;
+	top: 25px;
 }
 
-.burger-menu-wrapper .start-test {
-	display: block;
-	text-align: left;
-}
 
 .burger-menu {
 	list-style: none;
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	width: 100%;
 }
 
 .burger-menu__item {
 	font-size: 20px;
 	font-weight: 500;
-	margin-bottom: 10px;
+	display: block;
 }
 
 .burger-button {
@@ -847,4 +856,8 @@ footer .worktime {
 
 footer .worktime br {
 	display: none;
+}
+
+.burger-menu-wrapper a {
+	display: block;
 }

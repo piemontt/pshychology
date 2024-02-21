@@ -1,476 +1,477 @@
 <!DOCTYPE html>
 <html lang="ru-RU">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/slick.css">
-        <link rel="icon" href="src/icon/favicon.ico" type="image/x-icon">
-        <link href="css/jquery.fancybox.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <title>Баланс жизни - Консультации, индивидуально и в группах</title>
-    </head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/slick.css">
+		<link rel="icon" href="src/icon/favicon.ico" type="image/x-icon">
+		<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<title>Баланс жизни - Консультации, индивидуально и в группах</title>
+	</head>
 
-    <body>
-        <header>
-            <div class="burger-menu-wrapper">
-                <ul class="burger-menu">
-                    <li class="burger-menu__item">
-                        <a href="#aboutMe">Обо мне</a>
-                    </li>
-                    <li class="burger-menu__item">
-                        <a href="#aboutPoject">О проекте</a>
-                    </li>
-                    <li class="burger-menu__item">
-                        <a href="#format">Формат проведения</a>
-                    </li>
-                    <li class="burger-menu__item">
-                        <a href="#blog">Статьи</a>
-                    </li>
-                    <li class="burger-menu__item">
-                        <a href="#review">Отзывы</a>
-                    </li>
-                    <li>
-                        <a href="https://ya.ru/" target="_blank">
-                            <div class="button">
-                                Пройти тест
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-                <button id="burger-close" class="btn-close shadow-none"> </button>
-            </div>
-            <div class="container">
-                <div class="row flex-nowrap justify-content-between">
-                    <div class="col-auto ">
-                        <a class="logo" href="#">
-                            <img src="src/images/logo.svg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-sm-10 col-8">
-                        <div class="header__top-wrapper">
-                            <ul class="header__menu">
-                                <li class="header__menu__menu-item">
-                                    <a href="#aboutMe">Обо мне</a>
-                                </li>
-                                <li class="header__menu__menu-item">
-                                    <a href="#aboutPoject">О проекте</a>
-                                </li>
-                                <li class="header__menu__menu-item">
-                                    <a href="#format">Формат проведения</a>
-                                </li>
-                                <li class="header__menu__menu-item">
-                                    <a href="#blog">Статьи</a>
-                                </li>
-                                <li class="header__menu__menu-item">
-                                    <a href="#review">Отзывы</a>
-                                </li>
-                            </ul>
-                            <div class="header__phone-wrapper ms-lg-5">
-                                <a class="phone" href="tel:+79049109619" target="_blank">
-                                 +7 904 910-96-19
-                                </a>
-                            </div>
-                            <div class=" worktime worktime_responsive">Режим работы
-                                <br> 08:00–17:00
-                            </div>
-                            <div class="burger-button">
-                                <img src="src/icon/burger.svg" alt="">
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="header__bottom-wrapper d-none d-md-flex">
-                            <div class="start-test">
-                                <a class="button" href="https://ya.ru/" target="_blank">
-                                    Пройти тест
-                                </a>
-                            </div>
-                            <span class="worktime">
-                                Режим работы
-                                <br> 08:00–17:00
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <main>
-            <section class="main">
-                <div class="container">
-                    <div class="row align-items-center justify-content-center g-4 g-md-3">
-                        <div class="col-md-7 col-auto">
-                            <h1 class="title">Новый заголовок и ещё текст</h1>
-                            <div class="section-title">
-                                Зыряева Светлана Геннадьевна
-                            </div>
-                            <div class="main__text">
-                                Мой проект создан для помощи подросткам
-                                <br> и взрослым, в личностном
-                                <br> и профессиональном самоопределении
-                                <br> и развитии.
-                                <br>
-                                <br> Я психолог, провожу консультации,
-                                <br> индивидуально и в группах (игры, тренинги)
-                                <br> по темам: выбор/актуализация профессии,
-                                <br> поиск личных талантов и их активация,
-                                <br> работа со страхами двигаться к работе
-                                <br> своей мечты, карьерное консультирование,
-                                <br> командообразование
-                            </div>
-                            <div class="text-center text-md-start">
-                                <span class="button button_dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Записаться
-                                </span>
-                            </div>
-                        </div>
-                        <div class="col-md-5 col-sm-10 col-10 d-flex flex-column align-items-lg-end">
-                            <div class="main__photo-wrapper">
-                                <img class="main__photo" src="src/images/main__photo.png" alt="">
-                            </div>
-                            <div class="main__exp-wrapper">
-                                <div class="main__exp">
-                                    <span>500</span>
-                                    <br>
-                                    <div>часов практики</div>
-                                </div>
-                                <div class="main__exp">
-                                    <span>500</span>
-                                    <br>
-                                    <div>групповых занятий</div>
-                                </div>
-                                <div class="main__exp">
-                                    <span>500</span>
-                                    <br>
-                                    <div>курсов повышения квалификации</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="orientation">
-                <div class="container">
-                    <div class="section-title">Направления деятельности</div>
-                    <div class="orientation__slider">
-                        <div class="slide">
-                            <div class="orientation__slider__card">
-                                <img src="src/images/04.png" alt="">
-                                <div class="orientation__slider__card__content-wrapper">
-                                    <div class="orientation__slider__card__title">
-                                        Индивидуальная консультация
-                                    </div>
-                                    <div class="orientation__slider__card__desc">
-                                        Тут будет текст-описание. что входит в консультацию и длительность
-                                    </div>
-                                    <span class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                        Записаться
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="orientation__slider__card">
-                                <img src="src/images/02.png" alt="">
-                                <div class="orientation__slider__card__content-wrapper">
-                                    <div class="orientation__slider__card__title">
-                                        Семейная консультация
-                                    </div>
-                                    <div class="orientation__slider__card__desc">
-                                        Тут будет текст-описание. что входит в консультацию и длительность
-                                    </div>
-                                    <span class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Записаться
-                                </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="orientation__slider__card">
-                                <img src="src/images/03.png" alt="">
-                                <div class="orientation__slider__card__content-wrapper">
-                                    <div class="orientation__slider__card__title">
-                                        Проффесьянс
-                                        <br>&nbsp
-                                    </div>
-                                    <div class="orientation__slider__card__desc">
-                                        Тут будет текст-описание. что входит в консультацию и длительность
-                                    </div>
-                                    <span class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Записаться
-                                </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="orientation__slider__card">
-                                <img src="src/images/01.png" alt="">
-                                <div class="orientation__slider__card__content-wrapper">
-                                    <div class="orientation__slider__card__title">
-                                        Краткое описание услуг
-                                    </div>
-                                    <div class="orientation__slider__card__desc">
-                                        Тут будет текст-описание. что входит в консультацию и длительность
-                                    </div>
-                                    <span class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Записаться
-                                </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="orientation__slider__card">
-                                <img src="src/images/05.png" alt="">
-                                <div class="orientation__slider__card__content-wrapper">
-                                    <div class="orientation__slider__card__title">
-                                        Групповой тренинг
-                                        <br>&nbsp
-                                    </div>
-                                    <div class="orientation__slider__card__desc">
-                                        Тут будет текст-описание. что входит в консультацию и длительность
-                                    </div>
-                                    <span class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Записаться
-                                </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="help">
-                <div class="container">
-                    <div class="section-title">Кому я могу помочь</div>
-                    <div class="row align-items-center g-5 g-md-3">
-                        <div class="col-md-6 col-12 d-flex justify-content-center">
-                            <div class="help__photo-wrapper">
-                                <img class="help__photo" src="src/images/help__photo.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-12 mt-lg-5">
-                            <ul class="list_help">
-                                <li class="list-item">
-                                    Подростки и их родители
-                                </li>
-                                <li class="list-item">
-                                    Студенты после окончанчания вуза
-                                </li>
-                                <li class="list-item">
-                                    Взрослые в кризисе середины жизни
-                                </li>
-                                <li class="list-item">
-                                    Взрослые при смене семейной ситуации в поисках работы
-                                </li>
-                                <li class="list-item">
-                                    Социальные педагоги в поисках новых инструментов работы
-                                </li>
-                                <li class="list-item">
-                                    Школы
-                                </li>
-                            </ul>
-                            <span class="button button_dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Записаться</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="qual">
-                <div class="container">
-                    <div class="section-title">Моя квалификация</div>
-                    <div class="qual__slider">
-                        <div class="qual__slider__card-wrapper">
-                            <a data-fancybox="gallery" data-src="src/images/qual/1.png">
-                                <img src="src/images/qual/1.png">
-                            </a>
-                        </div>
-                        <div class="qual__slider__card-wrapper">
-                            <a data-fancybox="gallery" data-src="src/images/qual/2.png">
-                                <img src="src/images/qual/2.png">
-                            </a>
-                        </div>
-                        <div class="qual__slider__card-wrapper">
-                            <a data-fancybox="gallery" data-src="src/images/qual/3.jpg">
-                                <img src="src/images/qual_mins/3.jpg">
-                            </a>
-                        </div>
-                        <div class="qual__slider__card-wrapper">
-                            <a data-fancybox="gallery" data-src="src/images/qual/4.jpeg">
-                                <img src="src/images/qual_mins/4.jpg">
-                            </a>
-                        </div>
-                        <div class="qual__slider__card-wrapper">
-                            <a data-fancybox="gallery" data-src="src/images/qual/5.jpg">
-                                <img src="src/images/qual_mins/5.jpg">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="format">
-                <div class="container">
-                    <div class="section-title">Формат проведения </div>
-                    <div class="row mt-3 mt-sm-3">
-                        <div class="col-sm-6">
-                            <img src="src/images/format.png" alt="">
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="accordion-wrapper mt-5">
-                                <div class="accordion " id="accordionExample">
-                                    <div class="accordion-item">
-                                        <span class="accordion-header" id="headingOne">
-                                      <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                        Личная встреча
-                                      </button>
-                                    </span>
-                                        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
-                                        data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                Описание работы на онлайн приёме Описание работы на онлайн приёме Описание работы
-                                                на онлайн приёме
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion open mt-3" id="accordionExample2">
-                                    <div class="accordion-item">
-                                        <span class="accordion-header" id="headingOne">
-                                      <button class="accordion-button shadow-none " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
-                                        Личная встреча
-                                      </button>
-                                    </span>
-                                        <div id="collapseOne2" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                        data-bs-parent="#accordionExample2">
-                                            <div class="accordion-body">
-                                                Описание работы на онлайн приёме Описание работы на онлайн приёме Описание работы
-                                                на онлайн приёме
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="gift">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-sm-6 text-center text-sm-start">
-                            <ul class="list_gift list">
-                                <li class="list-item">
-                                    Индивидуальная консультация
-                                </li>
-                                <li class="list-item">
-                                    Участие в тета-игре «Путеводная звезда»
-                                </li>
-                                <li class="list-item">
-                                    Участие в профориентационной игре
-                                    <br>«Кто есть Кто»
-                                </li>
-                                <li class="list-item">
-                                    Участие в практикуме Юнгианского клуба
-                                </li>
-                            </ul>
-                            <a href="https://wa.me/7999999999?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%F0%9F%91%8B%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82!"
-                            target="_blank">
-                                <span class="button button_dark button_gift">
-                                    Купить сертификат
-                                </span>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 d-none d-sm-block">
-                            <img src="src/images/sert.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="review">
-                <div class="container">
-                    <div class="section-title">Отзывы</div>
-                    <div class="review__slider">
-                        <div class="review__slider__card">
-                            <img src="src/images/review/2.png" alt="">
-                        </div>
-                        <div class="review__slider__card">
-                            <img src="src/images/review/9.png" alt="">
-                        </div>
-                        <div class="review__slider__card">
-                            <img src="src/images/review/10.png" alt="">
-                        </div>
-                        <div class="review__slider__card">
-                            <img src="src/images/review/3.png" alt="">
-                        </div>
-                        <div class="review__slider__card">
-                            <img src="src/images/review/4.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div class="container">
-                <div class="row flex-nowrap justify-content-between justify-content-sm-start align-items-center">
-                    <div class="col-sm-2  col-auto d-block">
-                        <a href="#"><img src="src/images/logo.svg" alt=""></a>
-                    </div>
-                    <div class="col-sm-4 col-auto d-none d-md-block">
-                        <ul class="footer__menu">
-                            <li class="footer__menu__menu-item">
-                                <a href="#aboutMe">Обо мне</a>
-                            </li>
-                            <li class="footer__menu__menu-item">
-                                <a href="#aboutPoject">О проекте</a>
-                            </li>
-                            <li class="footer__menu__menu-item">
-                                <a href="#format">Формат проведения</a>
-                            </li>
-                            <li class="footer__menu__menu-item">
-                                <a href="#blog">Статьи</a>
-                            </li>
-                            <li class="footer__menu__menu-item">
-                                <a href="#review">Отзывы</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4 col-auto col-md-3 ms-0 ms-sm-auto">
-                        <a href="tel:+79049109619" target="_blank">
-                            <div class="phone">
-                                +7 904 910-96-19
-                            </div>
-                        </a>
-                        <div class="worktime">
-                            Режим работы
-                            <br> 08:00–17:00
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="section-title">Записаться на прием</div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <select class="form-select mt-5" aria-label="consultation_type">
-                        <option class="form-select" disabled selected>Вид консультации</option>
-                        <option value="1">Онлайн консультация</option>
-                        <option value="2">Личная встреча</option>
-                        <option value="3">Групповой тренинг</option>
-                    </select>
-                    <input type="text" class="mt-3 form-control" id="exampleFormControlInput1" placeholder="Дата">
-                    <input type="text" class="mt-3 form-control" id="exampleFormControlInput1" placeholder="Имя">
-                    <input type="text" class="mt-3 form-control" id="exampleFormControlInput1" placeholder="Телефон для связи">
-                    <span class="button button_dark mt-5">Записаться</span>
-                </div>
-            </div>
-        </div>
-        <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
-        <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/slick.min.js"></script>
-        <script type="text/javascript" src="js/functions.js"></script>
-        <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
-    </body>
+	<body>
+		<header>
+			<div class="burger-menu-wrapper">
+				<ul class="burger-menu">
+					<li class="burger-menu__item">
+						<a href="#aboutMe">Обо мне</a>
+					</li>
+					<li class="burger-menu__item">
+						<a href="#aboutPoject">О проекте</a>
+					</li>
+					<li class="burger-menu__item">
+						<a href="#format">Формат проведения</a>
+					</li>
+					<li class="burger-menu__item">
+						<a href="#blog">Статьи</a>
+					</li>
+					<li class="burger-menu__item">
+						<a href="#review">Отзывы</a>
+					</li>
+				</ul>
+				<button id="burger-close" class="btn-close shadow-none"> </button>
+				<a href="https://ya.ru/" target="_blank">
+					<div class="button">
+						Пройти тест
+					</div>
+				</a>
+				<span class="mt-3">
+					Режим работы 08:00–17:00
+				</span>
+			</div>
+			<div class="container">
+				<div class="row flex-nowrap justify-content-between">
+					<div class="col-auto ">
+						<a class="logo" href="#">
+							<img src="src/images/logo.svg" alt="">
+						</a>
+					</div>
+					<div class="col-sm-10 col-8">
+						<div class="header__top-wrapper">
+							<ul class="header__menu">
+								<li class="header__menu__menu-item">
+									<a href="#aboutMe">Обо мне</a>
+								</li>
+								<li class="header__menu__menu-item">
+									<a href="#aboutPoject">О проекте</a>
+								</li>
+								<li class="header__menu__menu-item">
+									<a href="#format">Формат проведения</a>
+								</li>
+								<li class="header__menu__menu-item">
+									<a href="#blog">Статьи</a>
+								</li>
+								<li class="header__menu__menu-item">
+									<a href="#review">Отзывы</a>
+								</li>
+							</ul>
+							<div class="header__phone-wrapper ms-lg-5">
+								<a class="phone" href="tel:+79049109619" target="_blank">
+								 +7 904 910-96-19
+								</a>
+							</div>
+							<div class=" worktime worktime_responsive">Режим работы
+								<br> 08:00–17:00
+							</div>
+							<div class="burger-button">
+								<img src="src/icon/burger.svg" alt="">
+							</div>
+						</div>
+						<hr>
+						<div class="header__bottom-wrapper d-none d-md-flex">
+							<div class="start-test">
+								<a class="button" href="https://ya.ru/" target="_blank">
+									Пройти тест
+								</a>
+							</div>
+							<span class="worktime">
+								Режим работы
+								<br> 08:00–17:00
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="main">
+				<div class="container">
+					<div class="row align-items-center justify-content-center g-0 g-md-3">
+						<div class="col-md-7 col-auto">
+							<h1 class="title">Новый заголовок и ещё текст</h1>
+							<div class="section-title">
+								Зыряева Светлана Геннадьевна
+							</div>
+							<div class="main__text">
+								Мой проект создан для помощи подросткам
+								<br> и взрослым, в личностном
+								<br> и профессиональном самоопределении
+								<br> и развитии.
+								<br>
+								<br> Я психолог, провожу консультации,
+								<br> индивидуально и в группах (игры, тренинги)
+								<br> по темам: выбор/актуализация профессии,
+								<br> поиск личных талантов и их активация,
+								<br> работа со страхами двигаться к работе
+								<br> своей мечты, карьерное консультирование,
+								<br> командообразование
+							</div>
+							<div class="text-center text-md-start">
+								<span class="button button_dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+									Записаться
+								</span>
+							</div>
+						</div>
+						<div class="col-md-5 col-sm-10 col-10 d-flex flex-column align-items-lg-end">
+							<div class="main__photo-wrapper">
+								<img class="main__photo" src="src/images/main__photo.png" alt="">
+							</div>
+							<div class="main__exp-wrapper">
+								<div class="main__exp">
+									<span>500</span>
+									<br>
+									<div>часов практики</div>
+								</div>
+								<div class="main__exp">
+									<span>500</span>
+									<br>
+									<div>групповых занятий</div>
+								</div>
+								<div class="main__exp">
+									<span>500</span>
+									<br>
+									<div>курсов повышения квалификации</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="orientation">
+				<div class="container">
+					<div class="section-title">Направления деятельности</div>
+					<div class="orientation__slider">
+						<div class="slide">
+							<div class="orientation__slider__card">
+								<img src="src/images/04.png" alt="">
+								<div class="orientation__slider__card__content-wrapper">
+									<div class="orientation__slider__card__title">
+										Индивидуальная консультация
+									</div>
+									<div class="orientation__slider__card__desc">
+										Тут будет текст-описание. что входит в консультацию и длительность
+									</div>
+									<span class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Записаться
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="orientation__slider__card">
+								<img src="src/images/02.png" alt="">
+								<div class="orientation__slider__card__content-wrapper">
+									<div class="orientation__slider__card__title">
+										Семейная консультация
+									</div>
+									<div class="orientation__slider__card__desc">
+										Тут будет текст-описание. что входит в консультацию и длительность
+									</div>
+									<span class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+									Записаться
+								</span>
+								</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="orientation__slider__card">
+								<img src="src/images/03.png" alt="">
+								<div class="orientation__slider__card__content-wrapper">
+									<div class="orientation__slider__card__title">
+										Проффесьянс
+										<br>&nbsp
+									</div>
+									<div class="orientation__slider__card__desc">
+										Тут будет текст-описание. что входит в консультацию и длительность
+									</div>
+									<span class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+									Записаться
+								</span>
+								</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="orientation__slider__card">
+								<img src="src/images/01.png" alt="">
+								<div class="orientation__slider__card__content-wrapper">
+									<div class="orientation__slider__card__title">
+										Краткое описание услуг
+									</div>
+									<div class="orientation__slider__card__desc">
+										Тут будет текст-описание. что входит в консультацию и длительность
+									</div>
+									<span class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+									Записаться
+								</span>
+								</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="orientation__slider__card">
+								<img src="src/images/05.png" alt="">
+								<div class="orientation__slider__card__content-wrapper">
+									<div class="orientation__slider__card__title">
+										Групповой тренинг
+										<br>&nbsp
+									</div>
+									<div class="orientation__slider__card__desc">
+										Тут будет текст-описание. что входит в консультацию и длительность
+									</div>
+									<span class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+									Записаться
+								</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="help">
+				<div class="container">
+					<div class="section-title">Кому я могу помочь</div>
+					<div class="row align-items-center g-5 g-md-3">
+						<div class="col-md-6 col-12 d-flex justify-content-center">
+							<div class="help__photo-wrapper">
+								<img class="help__photo" src="src/images/help__photo.png" alt="">
+							</div>
+						</div>
+						<div class="col-md-6 col-12 mt-lg-5">
+							<ul class="list_help">
+								<li class="list-item">
+									Подростки и их родители
+								</li>
+								<li class="list-item">
+									Студенты после окончанчания вуза
+								</li>
+								<li class="list-item">
+									Взрослые в кризисе середины жизни
+								</li>
+								<li class="list-item">
+									Взрослые при смене семейной ситуации в поисках работы
+								</li>
+								<li class="list-item">
+									Социальные педагоги в поисках новых инструментов работы
+								</li>
+								<li class="list-item">
+									Школы
+								</li>
+							</ul>
+							<span class="button button_dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Записаться</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="qual">
+				<div class="container">
+					<div class="section-title">Моя квалификация</div>
+					<div class="qual__slider">
+						<div class="qual__slider__card-wrapper">
+							<a data-fancybox="gallery" data-src="src/images/qual/1.png">
+								<img src="src/images/qual/1.png">
+							</a>
+						</div>
+						<div class="qual__slider__card-wrapper">
+							<a data-fancybox="gallery" data-src="src/images/qual/2.png">
+								<img src="src/images/qual/2.png">
+							</a>
+						</div>
+						<div class="qual__slider__card-wrapper">
+							<a data-fancybox="gallery" data-src="src/images/qual/3.jpg">
+								<img src="src/images/qual_mins/3.jpg">
+							</a>
+						</div>
+						<div class="qual__slider__card-wrapper">
+							<a data-fancybox="gallery" data-src="src/images/qual/4.jpeg">
+								<img src="src/images/qual_mins/4.jpg">
+							</a>
+						</div>
+						<div class="qual__slider__card-wrapper">
+							<a data-fancybox="gallery" data-src="src/images/qual/5.jpg">
+								<img src="src/images/qual_mins/5.jpg">
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="format">
+				<div class="container">
+					<div class="section-title">Формат проведения </div>
+					<div class="row mt-3 mt-sm-3">
+						<div class="col-md-6">
+							<img src="src/images/format.png" alt="">
+						</div>
+						<div class="col-md-6">
+							<div class="accordion-wrapper mt-3 mt-md-5">
+								<div class="accordion " id="accordionExample">
+									<div class="accordion-item">
+										<span class="accordion-header" id="headingOne">
+									  <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+										Личная встреча
+									  </button>
+									</span>
+										<div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+										data-bs-parent="#accordionExample">
+											<div class="accordion-body">
+												Описание работы на онлайн приёме Описание работы на онлайн приёме Описание работы
+												на онлайн приёме
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="accordion open mt-3" id="accordionExample2">
+									<div class="accordion-item">
+										<span class="accordion-header" id="headingOne">
+									  <button class="accordion-button shadow-none " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+										Личная встреча
+									  </button>
+									</span>
+										<div id="collapseOne2" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+										data-bs-parent="#accordionExample2">
+											<div class="accordion-body">
+												Описание работы на онлайн приёме Описание работы на онлайн приёме Описание работы
+												на онлайн приёме
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="gift">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-sm-6 text-center text-sm-start">
+							<ul class="list_gift list">
+								<li class="list-item">
+									Индивидуальная консультация
+								</li>
+								<li class="list-item">
+									Участие в тета-игре «Путеводная звезда»
+								</li>
+								<li class="list-item">
+									Участие в профориентационной игре
+									<br>«Кто есть Кто»
+								</li>
+								<li class="list-item">
+									Участие в практикуме Юнгианского клуба
+								</li>
+							</ul>
+							<a href="https://wa.me/7999999999?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%F0%9F%91%8B%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82!"
+							target="_blank">
+								<span class="button button_dark button_gift">
+									Купить сертификат
+								</span>
+							</a>
+						</div>
+						<div class="col-sm-6 d-none d-sm-block">
+							<img src="src/images/sert.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="review">
+				<div class="container">
+					<div class="section-title">Отзывы</div>
+					<div class="review__slider">
+						<div class="review__slider__card">
+							<img src="src/images/review/2.png" alt="">
+						</div>
+						<div class="review__slider__card">
+							<img src="src/images/review/9.png" alt="">
+						</div>
+						<div class="review__slider__card">
+							<img src="src/images/review/10.png" alt="">
+						</div>
+						<div class="review__slider__card">
+							<img src="src/images/review/3.png" alt="">
+						</div>
+						<div class="review__slider__card">
+							<img src="src/images/review/4.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container">
+				<div class="row flex-nowrap justify-content-between justify-content-sm-start align-items-center">
+					<div class="col-sm-4  col-auto d-block">
+						<a href="#"><img src="src/images/logo.svg" alt=""></a>
+					</div>
+					<div class="col-sm-4 col-auto d-none d-md-block">
+						<ul class="footer__menu">
+							<li class="footer__menu__menu-item">
+								<a href="#aboutMe">Обо мне</a>
+							</li>
+							<li class="footer__menu__menu-item">
+								<a href="#aboutPoject">О проекте</a>
+							</li>
+							<li class="footer__menu__menu-item">
+								<a href="#format">Формат проведения</a>
+							</li>
+							<li class="footer__menu__menu-item">
+								<a href="#blog">Статьи</a>
+							</li>
+							<li class="footer__menu__menu-item">
+								<a href="#review">Отзывы</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-4 col-auto col-md-3 ms-0 ms-sm-auto">
+						<a href="tel:+79049109619" target="_blank">
+							<div class="phone">
+								+7 904 910-96-19
+							</div>
+						</a>
+						<div class="worktime">
+							Режим работы
+							<br> 08:00–17:00
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="section-title">Записаться на прием</div>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					<select class="form-select mt-5" aria-label="consultation_type">
+						<option class="form-select" disabled selected>Вид консультации</option>
+						<option value="1">Онлайн консультация</option>
+						<option value="2">Личная встреча</option>
+						<option value="3">Групповой тренинг</option>
+					</select>
+					<input type="text" class="mt-3 form-control" id="exampleFormControlInput1" placeholder="Дата">
+					<input type="text" class="mt-3 form-control" id="exampleFormControlInput1" placeholder="Имя">
+					<input type="text" class="mt-3 form-control" id="exampleFormControlInput1" placeholder="Телефон для связи">
+					<span class="button button_dark mt-5">Записаться</span>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/slick.min.js"></script>
+		<script type="text/javascript" src="js/functions.js"></script>
+		<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+	</body>
 
 </html>

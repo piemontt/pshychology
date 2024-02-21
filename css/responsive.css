@@ -410,9 +410,15 @@
   .header__top-wrapper {
     padding: 10px 0;
   }
+  header hr {
+    display: none; 
+  }
 }
 
 @media (max-width: 768px) {
+  .accordion-wrapper {
+  margin-left: 0;
+}
   footer .worktime {
     margin-top: 10px;
   }
@@ -493,7 +499,7 @@
     display: none;
   }
 
-  header .button {
+  header .button:not(.burger-menu-wrapper .button){
     padding: 6px 30px;
     font-size: 14px;
     line-height: 33px;
