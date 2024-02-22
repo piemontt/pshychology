@@ -216,10 +216,15 @@ img {
 	-moz-column-gap: 100px;
 	column-gap: 96px;
 	padding-top: 120px;
+	margin-left: -90px;
 }
 
 .orientation {
 	padding: 100px 0;
+}
+
+.orientation .button {
+	padding: 2.5px 50px;
 }
 
 .orientation__slider {
@@ -403,13 +408,20 @@ img {
 }
 
 .list-item {
+	position: relative;
 	font-size: 24px;
 	line-height: 31px;
 	padding: 0 0 21px 8px;
+	list-style: none;
 }
 
-.list-item::marker {
-	content: url(src/icon/marker.png);
+.list-item::before {
+	background: url(src/icon/marker.png);
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: -25px;
 }
 
 .qual {
@@ -714,12 +726,12 @@ footer img:hover {
 	-webkit-transition: 0.5s all;
 	-o-transition: 0.5s all;
 	transition: 0.5s all;
-	z-index: 99;
+	z-index: 999;
 }
 
 .burger-menu-wrapper .button {
 	font-size: 20px;
-	padding:0 30px;
+	padding: 0 30px;
 	line-height: 34px;
 }
 
@@ -736,7 +748,6 @@ footer img:hover {
 	right: 20px;
 	top: 25px;
 }
-
 
 .burger-menu {
 	list-style: none;
@@ -860,4 +871,9 @@ footer .worktime br {
 
 .burger-menu-wrapper a {
 	display: block;
+}
+
+.modal-content .button {
+	font-size: 20px;
+	padding: 5px 40px;
 }
